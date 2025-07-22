@@ -6,11 +6,6 @@ on:
       - master
       - next # For pre-releases
 
-permissions:
-    contents: write
-    issue: write
-    pull-requests: write
-
 jobs:
   release:
     name: Publish Semantic Release
