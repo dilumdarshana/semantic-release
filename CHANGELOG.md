@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dilumdarshana/semantic-release/compare/v1.0.0...v1.0.1) (2025-07-23)
+
+
+### Bug Fixes
+
+* Using github built in token ([a82a893](https://github.com/dilumdarshana/semantic-release/commit/a82a893525db45cd0cfdf43886b17cbb41a03b95))
+
 # 1.0.0 (2025-07-23)
 
 
