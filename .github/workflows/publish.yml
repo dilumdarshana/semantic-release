@@ -13,7 +13,7 @@ jobs:
 
     permissions:
       contents: write # Needed to create releases and tags
-      issues: write # Needed to comment on issues
+      # issues: write # Needed to comment on issues
       pull-requests: write # Needed to comment on pull requests
 
     steps:
@@ -37,20 +37,8 @@ jobs:
       - name: Build the project
         run: pnpm build
 
-      # - name: Configure npm auth
-      #   run: |
-      #     echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
-      #     cat ~/.npmrc
-      #   env:
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Debug npm whoami
-        run: pnpm whoami
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Publish to npm
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # For publishing to npm
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }} # For creating releases and commenting
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # For creating releases and commenting
         run: pnpx semantic-release
