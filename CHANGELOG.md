@@ -1,3 +1,10 @@
+## [1.0.2-next.1](https://github.com/dilumdarshana/semantic-release/compare/v1.0.1...v1.0.2-next.1) (2025-07-23)
+
+
+### Bug Fixes
+
+* CI/CD issue permission ([a249905](https://github.com/dilumdarshana/semantic-release/commit/a2499054d782c0182d4c76719551719aa50eaeae))
+
 ## [1.0.1](https://github.com/dilumdarshana/semantic-release/compare/v1.0.0...v1.0.1) (2025-07-23)
 
 
