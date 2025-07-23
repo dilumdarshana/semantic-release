@@ -36,7 +36,9 @@ jobs:
         run: pnpm build
 
       - name: Configure npm auth
-        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
+          cat ~/.npmrc
 
       - name: Debug npm whoami
         run: pnpm whoami
