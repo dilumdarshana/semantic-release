@@ -1,4 +1,4 @@
-name: Publish to npm
+name: Publish to npm with Semantic Release
 
 on:
   push:
