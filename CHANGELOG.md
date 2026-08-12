@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/dilumdarshana/semantic-release/compare/v1.0.2...v1.1.0) (2026-08-12)
+
+
+### Features
+
+* Add new feature to app ([3e8c5d8](https://github.com/dilumdarshana/semantic-release/commit/3e8c5d8b29d7fb5fe91411e739ca8d1f72fd4b51))
+
 ## [1.0.2](https://github.com/dilumdarshana/semantic-release/compare/v1.0.1...v1.0.2) (2025-07-23)
 
 
