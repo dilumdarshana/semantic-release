@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/dilumdarshana/semantic-release/compare/v1.1.1...v1.1.2) (2026-08-12)
+
+
+### Bug Fixes
+
+* upgrade npm CLI in CI for trusted publishing ([869cb0e](https://github.com/dilumdarshana/semantic-release/commit/869cb0e764fe88333a75a1e04964ca754a06a820))
+
 ## [1.1.1](https://github.com/dilumdarshana/semantic-release/compare/v1.1.0...v1.1.1) (2026-08-12)
 
 
