@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/dilumdarshana/semantic-release/compare/v1.1.0...v1.1.1) (2026-08-12)
+
+
+### Bug Fixes
+
+* bump @semantic-release/npm to v13 for OIDC trusted publishing ([ea968dd](https://github.com/dilumdarshana/semantic-release/commit/ea968dd62662db832f44eaabf146272022b3b766))
+* update all dev dependencies to latest ([d382ca9](https://github.com/dilumdarshana/semantic-release/commit/d382ca95ffaf8877fba4ad05a806376d6096ff9b))
+* use npm trusted publishing for releases ([6eb2581](https://github.com/dilumdarshana/semantic-release/commit/6eb2581479359275f44b59c88ed592cda26757e3))
+
 # [1.1.0](https://github.com/dilumdarshana/semantic-release/compare/v1.0.2...v1.1.0) (2026-08-12)
 
 
