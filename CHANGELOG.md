@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/dilumdarshana/semantic-release/compare/v1.1.2...v1.1.3) (2026-08-12)
+
+
+### Bug Fixes
+
+* add repository field for npm provenance ([54d8940](https://github.com/dilumdarshana/semantic-release/commit/54d8940697c4a7e9924ba56c0502a2c28b0524d2))
+
 ## [1.1.2](https://github.com/dilumdarshana/semantic-release/compare/v1.1.1...v1.1.2) (2026-08-12)
 
 
