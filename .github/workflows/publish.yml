@@ -40,4 +40,4 @@ jobs:
       - name: Publish to npm
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # For creating releases and commenting
-        run: pnpx semantic-release
+        run: pnpm semantic-release

@@ -66,8 +66,6 @@ Compiles TypeScript from `src/` to `dist/` (the `dist` folder is gitignored and 
 
 ```bash
 pnpm semantic-release
-# or
-pnpx semantic-release
 ```
 
 ### 4. Dry run (safe to test)
@@ -199,9 +197,9 @@ The workflow in `.github/workflows/publish.yml` runs on every push to `master` a
 2. Set up Node.js 22 and pnpm.
 3. `pnpm install`
 4. `pnpm build`
-5. `pnpx semantic-release` (publishes to npm via **trusted publishing** and creates a GitHub release)
+5. `pnpm semantic-release` (publishes to npm via **trusted publishing** and creates a GitHub release)
 
-Publishing uses OIDC trusted publishing: the `release` job declares `id-token: write`, so GitHub mints an OIDC token that npm accepts — no `NPM_TOKEN` secret, and npm **provenance** is generated automatically for public packages. Note the trusted publisher on npmjs.com must reference this exact workflow file (`publish.yml`).
+Publishing uses OIDC trusted publishing: the `release` job declares `id-token: write`, so GitHub mints an OIDC token that npm accepts — no `NPM_TOKEN` secret, and npm **provenance** is generated automatically for public packages. Note the trusted publisher on npmjs.com must reference this exact workflow file (`publish.yml`). Use `pnpm semantic-release` (not `pnpx`) so the release runs the lockfile-pinned versions instead of fetching the latest from pnpm's cache.
 
 ## Troubleshooting
 
