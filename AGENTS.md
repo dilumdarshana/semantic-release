@@ -14,7 +14,7 @@ A testing/demo project for semantic-release automation (publishes a trivial TS p
 ## Commands
 
 - `pnpm build` — `tsc`, emits to `dist/` (gitignored). This is the **only** verification step; there are no tests, lint, or typecheck scripts.
-- `pnpm semantic-release` / `pnpx semantic-release` — run the release.
+- `pnpm semantic-release` — run the release (use `pnpm`, not `pnpx`: `pnpx` fetches the latest semantic-release from pnpm's cache instead of the lockfile-pinned version).
 - Dry run: `pnpx semantic-release --debug --dry-run` (see README).
 - Package manager is pnpm (`packageManager: pnpm@10.7.0`); don't use npm/yarn.
 
